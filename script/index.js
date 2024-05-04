@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-
-    
     // Menú desplegable
     const headerBtn = document.querySelector('.Header-btn');
     const headerNav = document.querySelector('.Header-nav');
@@ -10,9 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
         headerNav.classList.toggle('isHidden');
     });
 
-
-
-    // Filtros para la galería de proyectos
+    // Gelería de proyectos con filtros
     const trabajosFilterAll = document.querySelector('.Trabajos-filter--all');
     const trabajoPreviews = document.querySelectorAll('.Trabajo-preview');
 
@@ -71,3 +67,25 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     
+
+
+
+// document.addEventListener('DOMContentLoaded', function () {
+//     const headerBtn = document.querySelector('.Header-btn');
+//     const headerNav = document.querySelector('.Header-nav');
+//     const header = document.querySelector('.Header');
+
+//     headerBtn.addEventListener('click', function () {
+//         headerNav.classList.toggle('isActive');
+//         headerNav.classList.toggle('isHidden');
+
+//         // Verifica si el menú está oculto
+//         if (headerNav.classList.contains('isHidden')) {
+//             // Si está oculto, establece la altura del header a auto
+//             header.style.height = 'auto';
+//         } else {
+//             // Si no está oculto, deja la altura del header al 100%
+//             header.style.height = '100%';
+//         }
+//     });
+// });
